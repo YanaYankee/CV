@@ -8,13 +8,21 @@ body {
 @font-face {
     font-family: GrotesqueMTStd-Condensed;
     src: url(./fonts/GrotesqueMTStd-Condensed.otf);
+
+}
+@font-face {
+    font-family: GrotesqueMTStd-Condensed;
+    src: url(../fonts/GrotesqueMTStd-Condensed.otf);
+
 }
 h2{
     font-family: Arial;
     letter-spacing: 2px;
     color: #402a43;
     text-transform: uppercase;
+    padding-top:20px;
 }
+
 .border{
     height: 40px;
     width: 100%;
@@ -22,7 +30,7 @@ h2{
 }
 header {
     width:100%;
-    height:140px;
+    height:120px;
     display:flex;
     flex-direction: row;
     font-family: GrotesqueMTStd-Condensed;
@@ -39,34 +47,21 @@ header {
     padding: 40px 0 20px 5px;
 }
 .name{
-        padding: 50px 40px 0 0;
+    padding: 50px 40px 0 0;
     font-size: 76px;
 }
 section{
-    min-height: 800px;
+    min-height: 750px;
     display:flex;
 }
 aside{
     width:320px;
-    min-height: 800px;
     text-align: right;
 }
 article{
     width:600px;
-    min-height: 800px;
     padding: 0 0 0 30px;
-
-
 }
-footer{
-    width:90%;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    background-color: lightcoral;
-    min-height: 150px;
-    padding: 5%;
-    margin: 40px 0 0 0;
-    color:#fff;
-}
+p.job-title{font-weight: bold;}
+p.company{font-style: italic; }
 
